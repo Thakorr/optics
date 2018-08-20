@@ -73,6 +73,7 @@ padding-right: 1rem;
   display: flex;
   flex-direction: row;
   padding-top: 3rem;
+  padding-bottom: 3rem;
   justify-content: center;
   height: 8rem;
 }
@@ -116,4 +117,48 @@ padding-right: 1rem;
 
 .truck img {
   width: 5rem;
+}
+
+.verbage {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.descriptions {
+  padding-top: 1rem;
+}
+.philosophy {
+  display: flex;
+  flex-direction: column;
+  padding-right: 5rem;
+  width: 35%;
+}
+
+.philisophy_header {
+  background-color: cadetblue;
+  width: 10rem;
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
+  padding-left: 1.25rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.appointments {
+  display: flex;
+  flex-direction: column;
+  width: 35%;
+}
+
+.appointments_header {
+  background-color: cadetblue;
+  width: 10rem;
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
+  padding-left: 1.25rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
 }
