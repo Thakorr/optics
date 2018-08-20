@@ -3,10 +3,37 @@ html {
   line-height: 1.4;
 }
 
+body {
+  background-color: azure;
+}
+
+.container {
+  width: 960px;
+  margin: 0 auto;
+}
+
 .banner {
+  display: flex;
   height: 30rem;
   background-image: url(../images/background.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  padding-top: 1rem;
+}
+
+.company {
+  display: flex;
+  background-color: cadetblue;
+  font-family: Helvetica;
+  font-size: 1rem;
+  color: white;
+  align-items: center;
+  padding: 1rem 0 1rem 0;
+}
+
+.company img {
+height: 1.5rem;
+padding-left: 2rem;
+padding-right: 1rem;
 }
