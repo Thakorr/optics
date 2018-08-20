@@ -49,6 +49,11 @@ padding-right: 1rem;
   padding: 0 2rem;
 }
 
+.flexcontainer {
+  display: flex;
+  justify-content: flex-end;
+}
+
 .block {
   display: inline-block;
   background-color: white;
