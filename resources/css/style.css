@@ -53,4 +53,33 @@ padding-right: 1rem;
   display: flex;
   flex-direction: row;
   padding-top: 3rem;
+  justify-content: center;
+}
+
+.service {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: space-between;
+}
+
+.paper {
+  padding-right: 6rem;
+}
+
+.paper img {
+  width: 3.5rem;
+}
+
+.ruler {
+  padding-right: 6rem;
+}
+
+.ruler img {
+  width: 5rem;
+}
+
+.truck img {
+  width: 5rem;
 }
