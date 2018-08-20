@@ -5,7 +5,6 @@ html {
 body {
   font-family: Helvetica, sans-serif;
   line-height: 1.4;
-  background-color: azure;
 }
 
 .container {
@@ -42,6 +41,7 @@ padding-right: 1rem;
 
 .nav {
   display: flex;
+  margin-left: auto;
 }
 
 .nav li{
@@ -54,6 +54,7 @@ padding-right: 1rem;
   flex-direction: row;
   padding-top: 3rem;
   justify-content: center;
+  height: 8rem;
 }
 
 .service {
@@ -62,18 +63,19 @@ padding-right: 1rem;
   align-items: center;
   text-align: center;
   justify-content: space-between;
+  padding-right: 6rem;
 }
 
-.paper {
-  padding-right: 6rem;
+.service2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: space-between;
 }
 
 .paper img {
   width: 3.5rem;
-}
-
-.ruler {
-  padding-right: 6rem;
 }
 
 .ruler img {
