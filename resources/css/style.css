@@ -13,7 +13,7 @@ body {
 }
 
 .banner {
-  /*display: flex;*/
+  display: flex;
   height: 30rem;
   background-image: url(../images/background.png);
   background-repeat: no-repeat;
@@ -52,13 +52,16 @@ padding-right: 1rem;
 .block {
   display: inline-block;
   background-color: white;
-  font-size: 2rem;
-  font-weight: bold;
-  line-height: 1.2;
+  margin-top: 10rem;
+  margin-left: auto;
+  margin-right: -2rem;
 }
 
 .block h1 {
   padding: 1.5rem 5rem;
+  font-size: 2rem;
+  font-weight: bold;
+  line-height: 1.2;
 }
 
 .services {
