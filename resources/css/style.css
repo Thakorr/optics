@@ -14,7 +14,7 @@ body {
 }
 
 .banner {
-  display: flex;
+  /*display: flex;*/
   height: 30rem;
   background-image: url(../images/background.png);
   background-repeat: no-repeat;
@@ -25,6 +25,7 @@ body {
 
 .company {
   display: flex;
+  flex-direction: row;
   background-color: cadetblue;
   font-family: Helvetica;
   font-size: 1rem;
@@ -39,11 +40,17 @@ padding-left: 2rem;
 padding-right: 1rem;
 }
 
-.links {
-
+.nav {
+  display: flex;
 }
 
-.links li{
+.nav li{
   display: inline-block;
   padding: 0 2rem;
+}
+
+.services {
+  display: flex;
+  flex-direction: row;
+  padding-top: 3rem;
 }
