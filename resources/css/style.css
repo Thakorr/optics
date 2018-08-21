@@ -44,6 +44,10 @@ padding-right: 1rem;
   margin-left: auto;
 }
 
+.mobilenav {
+  display: none;
+}
+
 .nav li{
   display: inline-block;
   padding: 0 2rem;
@@ -175,4 +179,35 @@ padding-right: 1rem;
 
 .footer img {
   padding-right: 1rem;
+}
+
+/* MEDIA QUERIES */
+
+@media only screen and (max-width: 768px) {
+  .banner {
+    padding-top: 0;
+  }
+  .container {
+    width: 100%;
+  }
+  .block {
+    margin-top: 5rem;
+    margin-right: 2rem;
+  }
+  .block h1 {
+    font-size: 1.33rem;
+    padding: 0.75rem 4rem 0.75rem 4rem;
+  }
+  .banner {
+    height: 22rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .nav ul {
+    display: none;
+  }
+  .nav ul.mobilenav {
+    display: block;
+  }
 }
